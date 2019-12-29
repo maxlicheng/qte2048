@@ -48,6 +48,7 @@ private:
     int press_y;     //点击鼠标时获取的纵坐标y
     int relea_x;     //松开鼠标时获取的横坐标x
     int relea_y;     //松开鼠标时获取的纵坐标y
+    bool pressflag=0;
 };
 
 #endif // MAINWINDOW_H

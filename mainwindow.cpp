@@ -257,10 +257,17 @@ void MainWindow::mouseMoveEvent(QMouseEvent *event)
 void MainWindow::mousePressEvent(QMouseEvent *event)
 {//单击
     // 如果是鼠标左键按下
-    if (event->button() == Qt::LeftButton){
-        press_x = event->globalX();
-        press_y = event->globalY();
-        qDebug() << "left press:" << press_x << ":" << press_y;
+    if (event->button() == Qt::LeftButton){     
+        if((event->pos().x() > 270 && event->pos().x() < 870) && (event->pos().y() > 60 && event->pos().y() < 660)){
+            press_x = event->pos().x();
+            press_y = event->pos().y();
+            pressflag = 1;
+            qDebug() << "left press:" << press_x << ":" << press_y;
+        }
+        else{
+            pressflag = 0;
+             qDebug() << "invild range";
+        }
     }
 }
 
@@ -269,51 +276,55 @@ void MainWindow::mouseReleaseEvent(QMouseEvent *event)
     static int X=0;
     static int Y=0;
     static MouseState dirsta;
-    if (event->button() == Qt::LeftButton){
-        relea_x = event->globalX();
-        relea_y = event->globalY();
-        qDebug() << "left release:" << relea_x << ":" << relea_y;
-        X = relea_x - press_x;
-        Y = relea_y - press_y;
-        qDebug() << "X:" << X << ", Y:" << Y;
-        //对鼠标（手指）滑动的方向进行判断(右滑)
-        if((qAbs(X) > qAbs(Y)) && X>0)
-        {
-            qDebug() << "LEFT 2 RIGHT" ;
-            dirsta = mRIGHT;
-        }
-        //对鼠标（手指）滑动的方向进行判断(左滑)
-        else if((qAbs(X) > qAbs(Y)) && X<0)
-        {
-            qDebug() << "RIGHT 2 LEFT" ;
-            dirsta = mLEFT;
-        }
-        //对鼠标（手指）滑动的方向进行判断(down)
-        else if((qAbs(X) < qAbs(Y)) && Y>0)
-        {
-            qDebug() << "TOP 2 BOTTOM" ;
-            dirsta = mDOWN;
-        }
-        //对鼠标（手指）滑动的方向进行判断(up)
-        else if((qAbs(X) < qAbs(Y)) && Y<0)
-        {
-            qDebug() << "BOTTOM 2 TOP" ;
-            dirsta = mUP;
-        }
-        else
-        {
-            qDebug() << "JUST TOUCH";
+    if(pressflag == 1){
+        if (event->button() == Qt::LeftButton){
+            relea_x = event->pos().x();
+            relea_y = event->pos().y();
+            qDebug() << "left release:" << relea_x << ":" << relea_y;
+            X = relea_x - press_x;
+            Y = relea_y - press_y;
+            qDebug() << "X:" << X << ", Y:" << Y;
+            //对鼠标（手指）滑动的方向进行判断(右滑)
+            if((qAbs(X) > qAbs(Y)) && X>15)
+            {
+                qDebug() << "LEFT 2 RIGHT" ;
+                dirsta = mRIGHT;
+            }
+            //对鼠标（手指）滑动的方向进行判断(左滑)
+            else if((qAbs(X) > qAbs(Y)) && X<-15)
+            {
+                qDebug() << "RIGHT 2 LEFT" ;
+                dirsta = mLEFT;
+            }
+            //对鼠标（手指）滑动的方向进行判断(down)
+            else if((qAbs(X) < qAbs(Y)) && Y>15)
+            {
+                qDebug() << "TOP 2 BOTTOM" ;
+                dirsta = mDOWN;
+            }
+            //对鼠标（手指）滑动的方向进行判断(up)
+            else if((qAbs(X) < qAbs(Y)) && Y<-15)
+            {
+                qDebug() << "BOTTOM 2 TOP" ;
+                dirsta = mUP;
+            }
+            else
+            {
+                qDebug() << "JUST TOUCH";
+                press_x = 0;
+                press_y = 0;
+                relea_x = 0;
+                relea_y = 0;
+                pressflag = 0;
+                return;
+            }
             press_x = 0;
             press_y = 0;
             relea_x = 0;
             relea_y = 0;
-            return;
+            pressflag = 0;
+            GameDisplay(dirsta);
         }
-        press_x = 0;
-        press_y = 0;
-        relea_x = 0;
-        relea_y = 0;
-        GameDisplay(dirsta);
     }
 }
 
