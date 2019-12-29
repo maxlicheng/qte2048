@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     w.showbroad();
     srand((unsigned int)time(0));
     w.game.CreatNumber();
-    w.game.CreatNumber();
+//    w.game.CreatNumber();
     sleep(1);
     w.showbroad();
 

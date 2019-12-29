@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     totscore = 0;
     ui->setupUi(this);
+    connect(ui->quitButton, SIGNAL(clicked(bool)), this, SLOT(close()));
 }
 
 //显示并更新所有方块
@@ -302,6 +303,11 @@ void MainWindow::mouseReleaseEvent(QMouseEvent *event)
         else
         {
             qDebug() << "JUST TOUCH";
+            press_x = 0;
+            press_y = 0;
+            relea_x = 0;
+            relea_y = 0;
+            return;
         }
         press_x = 0;
         press_y = 0;

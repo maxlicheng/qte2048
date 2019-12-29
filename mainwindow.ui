@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>507</width>
-    <height>334</height>
+    <width>911</width>
+    <height>721</height>
    </rect>
   </property>
   <property name="font">
@@ -23,10 +23,10 @@
    <widget class="QLabel" name="label1">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>20</y>
-      <width>60</width>
-      <height>60</height>
+      <x>290</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -37,7 +37,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -53,10 +55,10 @@
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>20</y>
-      <width>60</width>
-      <height>60</height>
+      <x>430</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -67,7 +69,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -83,10 +87,10 @@
    <widget class="QLabel" name="label3">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>20</y>
-      <width>60</width>
-      <height>60</height>
+      <x>570</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -97,7 +101,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -113,10 +119,10 @@
    <widget class="QLabel" name="label4">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>20</y>
-      <width>60</width>
-      <height>60</height>
+      <x>710</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -127,7 +133,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -143,10 +151,10 @@
    <widget class="QLabel" name="label5">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>80</y>
-      <width>60</width>
-      <height>60</height>
+      <x>290</x>
+      <y>200</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -157,7 +165,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -173,10 +183,10 @@
    <widget class="QLabel" name="label6">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>80</y>
-      <width>60</width>
-      <height>60</height>
+      <x>430</x>
+      <y>200</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -187,7 +197,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -203,10 +215,10 @@
    <widget class="QLabel" name="label7">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>80</y>
-      <width>60</width>
-      <height>60</height>
+      <x>570</x>
+      <y>200</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -217,7 +229,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -233,10 +247,10 @@
    <widget class="QLabel" name="label8">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>80</y>
-      <width>60</width>
-      <height>60</height>
+      <x>710</x>
+      <y>200</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -247,7 +261,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -263,10 +279,10 @@
    <widget class="QLabel" name="label9">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>140</y>
-      <width>60</width>
-      <height>60</height>
+      <x>290</x>
+      <y>340</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -277,7 +293,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -293,10 +311,10 @@
    <widget class="QLabel" name="label10">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>140</y>
-      <width>60</width>
-      <height>60</height>
+      <x>430</x>
+      <y>340</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -307,7 +325,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -323,10 +343,10 @@
    <widget class="QLabel" name="label11">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>140</y>
-      <width>60</width>
-      <height>60</height>
+      <x>570</x>
+      <y>340</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -337,7 +357,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -353,10 +375,10 @@
    <widget class="QLabel" name="label12">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>140</y>
-      <width>60</width>
-      <height>60</height>
+      <x>710</x>
+      <y>340</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -367,7 +389,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -383,10 +407,10 @@
    <widget class="QLabel" name="label13">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>60</width>
-      <height>60</height>
+      <x>290</x>
+      <y>480</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -397,7 +421,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -413,10 +439,10 @@
    <widget class="QLabel" name="label14">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>200</y>
-      <width>60</width>
-      <height>60</height>
+      <x>430</x>
+      <y>480</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -427,7 +453,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -443,10 +471,10 @@
    <widget class="QLabel" name="label15">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>200</y>
-      <width>60</width>
-      <height>60</height>
+      <x>570</x>
+      <y>480</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -457,7 +485,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -473,10 +503,10 @@
    <widget class="QLabel" name="label16">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>200</y>
-      <width>60</width>
-      <height>60</height>
+      <x>710</x>
+      <y>480</y>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -487,7 +517,9 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -500,72 +532,152 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="score1">
+   <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>30</y>
-      <width>54</width>
-      <height>12</height>
+      <x>40</x>
+      <y>20</y>
+      <width>221</width>
+      <height>621</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
+    <property name="title">
+     <string/>
     </property>
-    <property name="text">
-     <string>score:</string>
-    </property>
+    <widget class="QLabel" name="score2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="score1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>score</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="restartButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>330</y>
+       <width>181</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>RESET</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="quitButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>480</y>
+       <width>181</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>QUIT</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QLabel" name="score2">
+   <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>50</y>
-      <width>100</width>
-      <height>30</height>
+      <x>270</x>
+      <y>20</y>
+      <width>601</width>
+      <height>621</height>
      </rect>
     </property>
-    <property name="minimumSize">
-     <size>
-      <width>100</width>
-      <height>30</height>
-     </size>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="title">
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="restartButton">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>180</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
-    <property name="text">
-     <string>重新开始</string>
-    </property>
-   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>label7</zorder>
+   <zorder>label5</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>label2</zorder>
+   <zorder>label6</zorder>
+   <zorder>label3</zorder>
+   <zorder>label11</zorder>
+   <zorder>label9</zorder>
+   <zorder>label15</zorder>
+   <zorder>label13</zorder>
+   <zorder>label16</zorder>
+   <zorder>label4</zorder>
+   <zorder>label8</zorder>
+   <zorder>label10</zorder>
+   <zorder>label14</zorder>
+   <zorder>label12</zorder>
+   <zorder>label1</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>507</width>
+     <width>911</width>
      <height>23</height>
     </rect>
    </property>
